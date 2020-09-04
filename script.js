@@ -29,3 +29,9 @@ const getSleepHours = day => {
   }
 };
 
+//get the total sleep hours that you actually slept
+const getActualSleepHours = () => getSleepHours('sunday') + getSleepHours('monday') + getSleepHours('tuesday') + getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday');
+
+//Get the ideal sleep hours that you prefer
+
+//Calculate the sleep debt, if any.
